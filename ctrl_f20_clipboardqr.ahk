@@ -4,5 +4,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ^F20::
 FileGetShortcut, D:\cmd\pythonw.lnk, exe
-run %exe% D:\git\cmd\clipboardqr.py
+run %exe% D:\git\cmd\showqr.py !c
 Return
